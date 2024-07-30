@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/10.jpg'); /* Ganti dengan path gambar pemandangan */
+    background-size: cover; /* Menyesuaikan ukuran gambar agar menutupi seluruh background */
+    background-position: center; /* Menyelaraskan gambar di tengah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Menyembunyikan scroll bar untuk animasi */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95); /* Mengurangi transparansi */
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 9px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative; /* Untuk menempatkan hiasan di dalam kontainer */
+    overflow: hidden; /* Menyembunyikan hiasan yang melampaui batas kontainer */
+    max-width: 90%; /* Membatasi lebar maksimum kontainer */
+    max-height: 80%; /* Membatasi tinggi maksimum kontainer */
+    margin-right: 40px; /* Tambahkan margin untuk menggeser ke kiri atau kanan */
+    margin-left: 20px; /* Menggeser kontainer ke kanan */
+    
+}
+
+.dates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date-left, .date-right {
+    font-size: 1.3em; /* Ukuran font untuk tanggal */
+    background-color: rgba(255, 255, 255, 0.8); /* Warna background dengan sedikit transparansi */
+    padding: 7px;
+    border-radius:7px;
+    box-shadow: 0 2px 2px #f90f0fc7;
+    flex: 2; /* Mengatur elemen tanggal untuk fleksibel */
+}
+
+.date-left {
+    text-align: right;
+    margin-right: 10px; /* Tambahkan margin untuk menggeser ke kiri atau kanan */
+}
+
+.date-right {
+    text-align: left;
+    margin-left: 10px; /* Tambahkan margin untuk menggeser ke kiri atau kanan */
+}
+
+.photo-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px; /* Memberikan jarak antara foto dan tanggal */
+    border-radius: 5px;
+    padding: 5px; /* Tambahkan ruang di sekitar foto dalam bingkai */
+    margin-top: 5px; /* Menggeser foto ke atas atau bawah */
+}
+
+.birthday-photo {
+    width: 250px; /* Sesuaikan ukuran foto utama */
+    height: 250px; /* Sesuaikan ukuran foto utama */
+    border-radius: 10px; /* Membuat sudut foto melengkung */
+}
+
+h1 {
+    color: #ff6347;
+    margin-top: 10px; /* Mengurangi jarak antara h1 dan elemen sebelumnya */
+    font-size: 2.4em; /* Ukuran font yang lebih besar */
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 20px; /* Mengurangi jarak antara paragraf dan elemen sebelumnya */
+}
